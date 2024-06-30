@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<produkty>
+	<kategoria nazwa="Elektronika" opis="Elektronika oferowana w naszym sklepie.">
+		<podkategoria nazwa="Telewizory" opis="Telewizory różnych marek.">
+			<szczegoly>
+				<produkt nazwa="Samsung QLED" cena="3000" producent="Samsung" opis="Telewizor Samsung QLED o rozdzielczości 4K z technologią Quantum Dot." />
+				<produkt nazwa="LG OLED" cena="3500" producent="LG" opis="Telewizor LG OLED z doskonałą jakością obrazu i głęboką czernią." />
+				<produkt nazwa="Sony Bravia" cena="4000" producent="Sony" opis="Telewizor Sony Bravia z technologią HDR i Android TV." />
+				<produkt nazwa="Panasonic Viera" cena="3200" producent="Panasonic" opis="Telewizor Panasonic Viera z wyświetlaczem 4K i inteligentnymi funkcjami." />
+				<produkt nazwa="TCL Roku TV" cena="2800" producent="TCL" opis="Telewizor TCL Roku TV z wbudowanym systemem Roku i obsługą HDR." />
+			</szczegoly>
+		</podkategoria>
+		<podkategoria nazwa="Laptopy" opis="Laptopy do pracy, rozrywki i gier.">
+			<szczegoly>
+				<produkt nazwa="Dell XPS 13" cena="4500" producent="Dell" opis="Laptop Dell XPS 13 z wyświetlaczem InfinityEdge i procesorem Intel." />
+				<produkt nazwa="MacBook Pro" cena="8000" producent="Apple" opis="MacBook Pro z procesorem Apple M1, idealny do profesjonalnych zastosowań." />
+				<produkt nazwa="HP Spectre x360" cena="5000" producent="HP" opis="Laptop HP Spectre x360 z ekranem dotykowym i procesorem Intel Core i7." />
+				<produkt nazwa="Asus ROG Zephyrus" cena="7000" producent="Asus" opis="Laptop Asus ROG Zephyrus do gier z kartą graficzną NVIDIA GeForce RTX." />
+				<produkt nazwa="Lenovo ThinkPad X1 Carbon" cena="6000" producent="Lenovo" opis="Laptop Lenovo ThinkPad X1 Carbon z trwałą konstrukcją i długim czasem pracy na baterii." />
+			</szczegoly>
+		</podkategoria>
+	</kategoria>
+	<kategoria nazwa="AGD" opis="AGD obejmuje urządzenia gospodarstwa domowego.">
+		<podkategoria nazwa="Pralki" opis="Pralki różnych marek.">
+			<szczegoly>
+				<produkt nazwa="Bosch Serie 6" cena="1500" producent="Bosch" opis="Pralka Bosch Serie 6 z technologią EcoSilence Drive." />
+				<produkt nazwa="Samsung EcoBubble" cena="2000" producent="Samsung" opis="Pralka Samsung EcoBubble z funkcją intensywnego czyszczenia." />
+				<produkt nazwa="LG TurboWash" cena="1800" producent="LG" opis="Pralka LG TurboWash z szybkim cyklem prania i oszczędnością energii." />
+				<produkt nazwa="Whirlpool FreshCare" cena="1700" producent="Whirlpool" opis="Pralka Whirlpool FreshCare z funkcją odświeżania odzieży." />
+				<produkt nazwa="Siemens iQ500" cena="1600" producent="Siemens" opis="Pralka Siemens iQ500 z zaawansowaną technologią prania i niskim zużyciem wody." />
+			</szczegoly>
+		</podkategoria>
+	</kategoria>
+</produkty>

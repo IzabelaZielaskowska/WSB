@@ -1,0 +1,38 @@
+﻿<Window x:Class="Zad3.OknoPotwierdzeniaUsunięcia"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zad3"
+        mc:Ignorable="d"
+        Title="{Binding TytułOknaUsuwania}"
+        Height="200"
+        Width="550"
+        FontSize="16"
+        >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock>Czy na pewno chcesz usunąć:</TextBlock>
+        <TextBlock
+            Grid.Row="1"
+            Text="{Binding Info}"
+            />
+        <Button
+            Grid.Row="2"
+            Click="Potwierdź"
+            >
+            Potwierdź
+        </Button>
+        <Button
+            Grid.Row="3"
+            Click="Anuluj"
+            >
+            Anuluj
+        </Button>
+    </Grid>
+</Window>
